@@ -96,7 +96,7 @@ main section div {
 }
 
 #cards1 {
-    background-image: url("/assets/images/picture1.jpeg");
+    background-image: url("../images/picture1.jpeg");
     background-size: cover;
     height: 120px;
     width: 300px;
@@ -104,7 +104,7 @@ main section div {
 }
 
 #cards2 {
-    background-image: url("/assets/images/picture2.jpeg");
+    background-image: url("../images/picture2.jpeg");
     background-size: cover;
     height: 120px;
     width: 300px;
@@ -112,7 +112,7 @@ main section div {
 }
 
 #cards3 {
-    background-image: url("/assets/images/picture3.jpeg");
+    background-image: url("../images/picture3.jpeg");
     background-size: cover;
     height: 120px;
     width: 300px;
@@ -120,7 +120,7 @@ main section div {
 }
 
 #cards4 {
-    background-image: url("/assets/images/picture4.jpeg");
+    background-image: url("../images/picture4.jpeg");
     background-size: cover;
     height: 120px;
     width: 300px;
@@ -128,7 +128,7 @@ main section div {
 }
 
 #cards5 {
-    background-image: url("/assets/images/picture5.jpeg");
+    background-image: url("../images/picture5.jpeg");
     background-size: cover;
     height: 120px;
     width: 300px;
