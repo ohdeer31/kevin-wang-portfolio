@@ -1,0 +1,284 @@
+:root {
+    --background: rgb(159, 216, 203);
+    --boxcolor: rgb(45, 51, 25);
+    --title: rgb(45, 51, 25);
+    --lines: rgb(214, 229, 227);
+    --hover: rgb(202, 207, 214);
+    --nav: rgb(77, 87, 46);
+}
+
+* {
+    background-color: var(--background);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin: auto;
+}
+
+header h1 {
+    color: var(--hover);
+    background-color: var(--title);
+    font-size: 200%;
+    text-align: center;
+}
+
+nav ul {
+    background-color: var(--nav);
+    padding: 0.1% 2%;
+}
+
+nav ul li {
+    border-bottom: 1px solid var(--lines);
+    background-color: var(--nav);
+    padding: 0;
+}
+
+nav ul li a {
+    color: var(--hover);
+    background-color: transparent;
+    display: block;
+    padding: 7px 2px;
+    margin: 2px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: var(--hover);
+    color: black;
+}
+
+.hero0 {
+    background-image:  url("/assets/images/backgroundpic.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+#subtitle {
+    background-color: transparent;
+    color: var(--hover);
+    font-size: 150%;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.secPar, .seclastPar {
+    margin: 30px;
+}
+
+main section h3 {
+    border-bottom: 2px solid var(--boxcolor);
+}
+
+main section p {
+    padding: 3% 0;
+}
+
+main section div div img {
+    display: inline-block;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+main section div {
+    margin: 1%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#cards1 {
+    background-image: url("/assets/images/picture1.jpeg");
+    background-size: cover;
+    height: 120px;
+    width: 300px;
+    border: 5px solid var(--boxcolor);
+}
+
+#cards2 {
+    background-image: url("/assets/images/picture2.jpeg");
+    background-size: cover;
+    height: 120px;
+    width: 300px;
+    border: 5px solid var(--boxcolor);
+}
+
+#cards3 {
+    background-image: url("/assets/images/picture3.jpeg");
+    background-size: cover;
+    height: 120px;
+    width: 300px;
+    border: 5px solid var(--boxcolor);
+}
+
+#cards4 {
+    background-image: url("/assets/images/picture4.jpeg");
+    background-size: cover;
+    height: 120px;
+    width: 300px;
+    border: 5px solid var(--boxcolor);
+}
+
+#cards5 {
+    background-image: url("/assets/images/picture5.jpeg");
+    background-size: cover;
+    height: 120px;
+    width: 300px;
+    border: 5px solid var(--boxcolor);
+}
+
+.content {
+    display: block;
+    text-align: left;
+    position: relative;
+    height: 33px;
+    top: 33%;
+    margin-right: auto; 
+}
+
+h4 {
+    background-color: var(--boxcolor);
+    color: white;
+    font-size: 25px;
+    
+}
+
+h5 {
+    background-color: var(--boxcolor);
+    color: white;
+    font-size: 15px;
+    height: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.touchme:hover {
+    background-color: rgba(241, 241, 241, 0.603);
+    box-shadow: 8px 8px 8px 3px #888888;
+    transition: 0.5s;
+}
+
+.conlinks a {
+    text-decoration: none;
+    line-height: 20%;
+}
+
+.conlinks a::before {
+    /* content: "\00A9";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-right: 5px; */
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (min-width: 698px) {
+    header {
+        
+    }
+    
+    header h1 {
+        justify-content: space-between;
+        background-color: var(--nav);
+        margin: 0%;
+        padding: 0.2%;
+        float: left;
+        padding-left: 20px;
+    }
+
+    header nav {
+        background-color: var(--nav);
+        margin: 0;
+        overflow: hidden;   
+    }
+
+    header nav ul {
+        background-color: var(--nav);
+        display: flex;
+        float: right;
+    }
+
+    header nav ul li {
+        border-bottom: 0;
+    }
+
+    #about > #cards1-1 {
+        width: 100%;
+    }
+   
+    #cards1 {
+        width: 100%;
+        height: 300px;
+    }
+
+    #about > #cards2-1 {
+        width: 48%;
+    }
+    
+    #about > #cards3-1 {
+        width: 48%;
+    }
+
+    #about > #cards4-1 {
+        width: 48%;
+    }
+
+    #about > #cards5-1 {
+        width: 48%;
+    }
+
+    #cards2, #cards3, #cards4, #cards5 {
+        width: 100%;
+    }
+    
+    #content1 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        background-size: 200%;
+    }
+    
+    #lastSec {
+        display: flex;
+    }
+    
+    #contactme {
+        border-bottom: 2px solid var(--boxcolor);
+    }
+}
+
+@media screen and (min-width: 845px) {
+    .Partitle {
+        display: inline-block;
+        border-right: 2px solid var(--boxcolor);
+        border-bottom: 0;
+        text-align: right;
+    }   
+    
+    main section h3 {
+        margin: 2% 5% 0 2%;
+        padding: 0 2%;
+        font-size: larger;
+    }
+    
+    #about {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .secPar {
+        display: flex;
+    }
+}
