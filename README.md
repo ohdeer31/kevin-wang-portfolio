@@ -1,10 +1,10 @@
 # kevin-wang-portfolio
 
-## Evidence for "The Images On My Page Do Work"
-
-![alt text](./assets/Screen%20Shot%202022-03-29%20at%2010.14.42%20PM.png)
+https://ohdeer31.github.io/kevin-wang-portfolio/
 
 ## Description
+
+![alt text](./assets/Screen%20Shot%202022-03-29%20at%2010.14.42%20PM.png)
 
 - Using the skill and knowledge learned from the bootcamp, creating my very own portfolio setup for the future job interview use.
 - Doing this project helps testing my knowledge and improve my skill set. 
