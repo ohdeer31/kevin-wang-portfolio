@@ -79,12 +79,12 @@ main section p {
     padding: 3% 0;
 }
 
-main section div div img {
+/* main section div a img {
     display: inline-block;
     background-size: cover;
     width: 100%;
     height: 100px;
-}
+} */
 
 main section div {
     margin: 1%;
@@ -101,6 +101,7 @@ main section div {
     height: 120px;
     width: 300px;
     border: 5px solid var(--boxcolor);
+    color: var(--boxcolor);
 }
 
 #cards2 {
@@ -109,6 +110,7 @@ main section div {
     height: 120px;
     width: 300px;
     border: 5px solid var(--boxcolor);
+    color: var(--boxcolor);
 }
 
 #cards3 {
@@ -117,6 +119,7 @@ main section div {
     height: 120px;
     width: 300px;
     border: 5px solid var(--boxcolor);
+    color: var(--boxcolor);
 }
 
 #cards4 {
@@ -125,6 +128,7 @@ main section div {
     height: 120px;
     width: 300px;
     border: 5px solid var(--boxcolor);
+    color: var(--boxcolor);
 }
 
 #cards5 {
@@ -133,6 +137,7 @@ main section div {
     height: 120px;
     width: 300px;
     border: 5px solid var(--boxcolor);
+    color: var(--boxcolor);
 }
 
 .content {
@@ -142,6 +147,7 @@ main section div {
     height: 33px;
     top: 33%;
     margin-right: auto; 
+    /* margin: 0%; */
 }
 
 h4 {
@@ -219,6 +225,7 @@ footer {
    
     #cards1 {
         width: 100%;
+        /* max-width: max-content; */
         height: 300px;
     }
 
@@ -243,10 +250,11 @@ footer {
     }
     
     #content1 {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
-        background-size: 200%;
+        /* padding-right: 0%; */
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+        /* flex-direction: row; */
+        /* background-size: 200%; */
     }
     
     #lastSec {
